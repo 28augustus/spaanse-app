@@ -1,0 +1,138 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+a {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+div,
+p {
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 1.3rem;
+}
+
+.option-button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.option-button:hover {
+  background-color: #0056b3;
+}
+
+/* Achtergrond met pastelkleuren */
+body {
+  background-color: #fef6e4; /* Zachte pastel achtergrond */
+  position: relative;
+  overflow: auto;
+}
+
+/* Ronde decoraties */
+.decoration {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  opacity: 0.5; /* Doorzichtig effect */
+  z-index: -1; /* Achter content plaatsen */
+}
+
+/* Individuele kleuren en posities */
+.one {
+  background-color: #ffcad4;
+  top: 10%;
+  left: 5%;
+}
+
+.two {
+  background-color: #b8e0d2;
+  top: 50%;
+  right: 10%;
+}
+
+.three {
+  background-color: #c1d3fe;
+  bottom: 10%;
+  left: 50%;
+}
+
+/* Stijl voor de quiz-container */
+#quizContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Mooie knoppen met afgeronde hoeken en pastelkleuren */
+.option-button {
+  display: inline-block; /* Zorgt ervoor dat ze mooi naast elkaar staan */
+  width: 220px;
+  padding: 12px;
+  margin: 10px;
+  background-color: #ffcad4; /* Zachte roze kleur */
+  color: #4a4a4a;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px; /* Maakt de knoppen afgerond */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover-effect voor de knoppen */
+.option-button:hover {
+  background-color: #f4acb7; /* Donkerder roze bij hover */
+  transform: scale(1.1); /* Laat de knop iets groter worden */
+}
+
+/* Start-knop */
+#startButton {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 25px;
+  background-color: #b8e0d2; /* Pastelgroen */
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover-effect voor de start-knop */
+#startButton:hover {
+  background-color: #a1cfc0;
+  transform: scale(1.1);
+}
